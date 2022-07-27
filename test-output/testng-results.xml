@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-26T18:30:34Z" name="Suite" finished-at="2022-07-26T18:30:47Z" duration-ms="13214">
+    <groups>
+    </groups>
+    <test started-at="2022-07-26T18:30:34Z" name="Test" finished-at="2022-07-26T18:30:47Z" duration-ms="13214">
+      <class name="acti.tests.LoginPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:34Z" name="setUp" finished-at="2022-07-26T18:30:37Z" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageTitle()[pri:1, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:37Z" name="testLoginPageTitle" finished-at="2022-07-26T18:30:37Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:37Z" name="tearDown" finished-at="2022-07-26T18:30:37Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:37Z" name="setUp" finished-at="2022-07-26T18:30:39Z" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testforgotPasswordLink()[pri:2, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:39Z" name="testforgotPasswordLink" finished-at="2022-07-26T18:30:39Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testforgotPasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:39Z" name="tearDown" finished-at="2022-07-26T18:30:40Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:40Z" name="setUp" finished-at="2022-07-26T18:30:42Z" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testActilogoisDisplayed()[pri:3, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:42Z" name="testActilogoisDisplayed" finished-at="2022-07-26T18:30:42Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActilogoisDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:42Z" name="tearDown" finished-at="2022-07-26T18:30:42Z" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:42Z" name="setUp" finished-at="2022-07-26T18:30:44Z" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFunction()[pri:4, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:44Z" name="testLoginFunction" finished-at="2022-07-26T18:30:47Z" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acti.tests.LoginPageTests@7164ca4c]" started-at="2022-07-26T18:30:47Z" name="tearDown" finished-at="2022-07-26T18:30:47Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- acti.tests.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
