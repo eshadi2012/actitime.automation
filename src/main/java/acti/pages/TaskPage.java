@@ -3,10 +3,10 @@ package acti.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import acti.driver.DriverManager;
 
 public class TaskPage extends DriverManager{
+	
 	
 //*****************************Page Element********************************
 	
@@ -16,6 +16,7 @@ public class TaskPage extends DriverManager{
 	@FindBy(xpath="/textarea[@placeholder='Enter Customer Description']") WebElement textAreaCustomerDescription;
 	@FindBy(xpath="//div[contains(text(),'Create Customer')]") WebElement buttonCreateCustomer;
 	@FindBy(xpath= "//span[@class='innerHtml']") WebElement TextSuccessMessage;
+	
 
 //*****************************Page initialization************************
 		
@@ -40,9 +41,9 @@ public class TaskPage extends DriverManager{
 			textCustomerName.sendKeys(customername);
 		}
 		
-		public void enterCustomerDiscription(String custdescription)
+		public void enterCustomerDiscription(String customerdescription)
 		{
-			textAreaCustomerDescription.sendKeys(custdescription);
+			textAreaCustomerDescription.sendKeys(customerdescription);
 		}
 		public void clickCreateCustomer()
 		{
