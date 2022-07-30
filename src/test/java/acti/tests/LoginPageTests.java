@@ -9,7 +9,7 @@ import acti.pages.LoginPage;
 public class LoginPageTests extends BaseTest{
 	
 	
-	@Test(priority = 1)
+	@Test(priority = 1,enabled = false)
 	public void testLoginPageTitle()
 	{
 	    lp = new LoginPage();
@@ -20,7 +20,7 @@ public class LoginPageTests extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2, enabled = false)
 	public void testforgotPasswordLink()
 	{
 		boolean flag = lp.validateFogotPassword();
@@ -28,7 +28,7 @@ public class LoginPageTests extends BaseTest{
 		Assert.assertTrue(flag);
 	}
 	
-	@Test(priority= 3)
+	@Test(priority= 3,enabled = false )
 	public void testActilogoisDisplayed()
 	{
 		boolean img = lp.validateActiImg();
@@ -36,11 +36,11 @@ public class LoginPageTests extends BaseTest{
 		Assert.assertTrue(img);
 	}
 	
-	@Test(priority= 4)
-	public void testLoginFunction()
+	@Test(priority= 4,dataProvider = "actidata")
+	public void testLoginFunction(String username, String password)
 	{
-		lp.enterUsername("admin");
-		lp.enterPassword("manager");
+		lp.enterUsername(username);
+		lp.enterPassword(password);
 		lp.clickLogin();
 		ep = new EnterPage();
 		String actual = "John Doe";

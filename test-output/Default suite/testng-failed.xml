@@ -5,9 +5,9 @@
     <classes>
       <class name="acti.tests.LoginPageTests">
         <methods>
+          <include name="testLoginFunction" invocation-numbers="2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testforgotPasswordLink"/>
         </methods>
       </class> <!-- acti.tests.LoginPageTests -->
     </classes>
