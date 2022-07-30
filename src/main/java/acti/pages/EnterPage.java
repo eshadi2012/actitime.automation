@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import acti.driver.DriverManager;
+import acti.utils.Helper;
 
 public class EnterPage extends DriverManager{
 	
@@ -29,6 +30,7 @@ public class EnterPage extends DriverManager{
 	
 	public void clickLogout()
 	{
+		Helper.fn_sleep();
 		linkLogout.click();
 	}
 	
